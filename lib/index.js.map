@@ -1,17 +1,1 @@
-{
-    "version": 3,
-    "sources": [
-        "../src/index.ts"
-    ],
-    "names": [
-        "text",
-        "nonExistentFunction",
-        "console",
-        "log"
-    ],
-    "mappings": ";;;;;;AAAO,IAAMA,IAAY,GAAG,4BAArB,C,CAEP;;;AACAC,mBAAmB;AAEnBC,OAAO,CAACC,GAAR,CAAYH,IAAZ",
-    "sourcesContent": [
-        "export const text: string = \"Automatically detect saves\"\r\n\r\n//@ts-ignore\r\nnonExistentFunction()\r\n\r\nconsole.log(text)"
-    ],
-    "file": "index.js"
-}
+{"version":3,"sources":["../src/index.ts"],"names":["text","console","log"],"mappings":";;;;;;AAAO,IAAMA,IAAY,GAAG,cAArB,C,CAEP;AACA;AACA;;;AAEAC,OAAO,CAACC,GAAR,CAAYF,IAAZ","sourcesContent":["export const text: string = \"Hello World!\"\r\n\r\n//@ts-ignore\r\n//Uncomment this to see how the source mapping works\r\n// nonExistentFunction()\r\n\r\nconsole.log(text)"],"file":"index.js"}

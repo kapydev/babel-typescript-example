@@ -1,6 +1,7 @@
-export const text: string = "Automatically detect saves"
+export const text: string = "Hello World!"
 
 //@ts-ignore
-nonExistentFunction()
+//Uncomment this to see how the source mapping works
+// nonExistentFunction()
 
 console.log(text)
