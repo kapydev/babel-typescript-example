@@ -1,0 +1,25 @@
+{
+  "name": "babel-typescript-example-3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:compile":"npx babel src --extensions .ts --out-dir lib --source-maps",
+    "build:types":"tsc",
+    "build": "concurrently npm:build:*",
+    "watch:compile":"npx babel src --extensions .ts --out-dir lib --source-maps --watch",
+    "watch:types":"tsc --watch",
+    "watch": "concurrently npm:watch:*"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.15.4",
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.6",
+    "@babel/preset-typescript": "^7.15.0",
+    "concurrently": "^6.2.1"
+  }
+}
